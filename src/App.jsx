@@ -21,11 +21,11 @@ export default function App() {
         <div className="shape"></div>
         <div className="shape"></div>
       </div>
-      <div className="neural-lines">
+      {/* <div className="neural-lines">
         <div className="neural-line"></div>
         <div className="neural-line"></div>
         <div className="neural-line"></div>
-      </div>
+      </div> */}
 
       <div className="ready-container"> 
           <div className="ready-kr">현재 사이트 준비중입니다.</div>
