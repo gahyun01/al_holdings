@@ -1,11 +1,12 @@
 import React from 'react'
+import logo from '../../public/images/logo_pink.png'
 
 export default function Header() {
   return (
     <header className="glass">
       <nav>
         <a href="#home" className="logo" aria-label="NeuralGlass Home">
-          <svg className="logo-icon" viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+          {/* <svg className="logo-icon" viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
             <defs>
               <linearGradient id="logoGradient" x1="0%" y1="0%" x2="100%" y2="100%">
                 <stop offset="0%" style={{ stopColor: '#e0a3ff' }}/>
@@ -19,8 +20,9 @@ export default function Header() {
             <line x1="50" y1="30" x2="30" y2="60" stroke="url(#logoGradient)" strokeWidth="2" opacity="0.6" />
             <line x1="50" y1="30" x2="70" y2="65" stroke="url(#logoGradient)" strokeWidth="2" opacity="0.6" />
             <line x1="30" y1="60" x2="70" y2="65" stroke="url(#logoGradient)" strokeWidth="2" opacity="0.6" />
-          </svg>
-          NEURALGLASS
+          </svg> */}
+          <img className='logo-icon' src={logo} alt="NeuralGlass Logo" />
+          AL Holdings
         </a>
         <ul className="nav-links">
           <li><a href="#features">Neural</a></li>

@@ -6,7 +6,6 @@ import Showcase from './components/Showcase'
 import Timeline from './components/Timeline'
 import Contact from './components/Contact'
 import Footer from './components/Footer'
-import NavigatorFeature from './components/NavigatorFeature'
 import useNeuralEffects from './hooks/useNeuralEffects'
 
 export default function App() {
@@ -21,11 +20,6 @@ export default function App() {
         <div className="shape"></div>
         <div className="shape"></div>
       </div>
-      <div className="neural-lines">
-        <div className="neural-line"></div>
-        <div className="neural-line"></div>
-        <div className="neural-line"></div>
-      </div>
 
       {/* Structure */}
       <Header />
@@ -37,7 +31,6 @@ export default function App() {
       <Footer />
 
       {/* Navigator feature (browser Navigator API) */}
-      <NavigatorFeature />
     </>
   )
 }
