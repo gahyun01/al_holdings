@@ -8,16 +8,7 @@
 }
 
 /* 기본 (PC 화면) */
-.ready-kr {
-  font-size: 36px;
-  font-weight: 700;
-  color: #e0a3ff;
-  margin-bottom: 20px;
-  opacity: 0;
-  animation: slideInFromLeft 1.2s ease 0.3s forwards;
-}
-
-.ready-en {
+.ready {
   font-size: 24px;
   font-weight: 300;
   color: #e0a3ff;
@@ -31,12 +22,7 @@
 
 /* 태블릿 (가로폭 768px ~ 1024px) */
 @media screen and (max-width: 1024px) {
-  .ready-kr {
-    font-size: 30px;
-    margin-bottom: 16px;
-  }
-
-  .ready-en {
+  .ready {
     font-size: 20px;
     letter-spacing: 0.25em;
   }
@@ -44,12 +30,7 @@
 
 /* 모바일 (가로폭 767px 이하) */
 @media screen and (max-width: 767px) {
-  .ready-kr {
-    font-size: 24px;
-    margin-bottom: 12px;
-  }
-
-  .ready-en {
+  .ready {
     font-size: 16px;
     letter-spacing: 0.2em;
   }

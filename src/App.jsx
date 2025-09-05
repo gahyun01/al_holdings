@@ -28,8 +28,8 @@ export default function App() {
       </div> */}
 
       <div className="ready-container"> 
-          <div className="ready-kr">현재 사이트 준비중입니다.</div>
-          <div className="ready-en">This site is currently under construction.</div> 
+          {/* <div className="ready-kr">현재 사이트 준비중입니다.</div> */}
+          <div className="ready">This site is currently under construction.</div> 
       </div>
       {/* Structure */}
       {/* <Header />
